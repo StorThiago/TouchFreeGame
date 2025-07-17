@@ -60,6 +60,14 @@ Certifique-se de que sua webcam está conectada e funcionando.
 
 ---
 
+## 🫧 Versão Atual: Estourar Bolhas
+
+A tela inicial apresenta o logo do jogo, as logos da escola e do ISCTE,
+além de um link para este repositório. Ao pressionar o botão **Iniciar**,
+o jogador deve estourar bolhas de tamanhos variados clicando sobre elas.
+
+---
+
 ## 📚 Estrutura Inicial
 
 ```
