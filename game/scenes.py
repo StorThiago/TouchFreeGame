@@ -20,11 +20,7 @@ class Bubble:
         self.radius = random.randint(20, 60)
         self.x = random.randint(self.radius, SCREEN_WIDTH - self.radius)
         self.y = random.randint(self.radius, SCREEN_HEIGHT - self.radius)
-        self.color = (
-            random.randint(100, 255),
-            random.randint(100, 255),
-            random.randint(100, 255),
-        )
+        self.color = random.choice([(255, 0, 0), (0, 0, 255)])  # Red or Blue
 
     def draw(self, surface):
         pygame.draw.circle(surface, self.color, (self.x, self.y), self.radius)
@@ -65,21 +61,21 @@ def main_scene():
                             break
 
         if show_start:
-            screen.fill((30, 30, 30))
+            screen.fill((0, 0, 0))
             _draw_text(screen, "TouchFreeGame", 48, (255, 255, 255), (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 - 100))
             _draw_text(screen, "Logo Escola", 24, (200, 200, 200), (SCREEN_WIDTH // 2 - 200, SCREEN_HEIGHT - 60))
             _draw_text(screen, "Logo ISCTE", 24, (200, 200, 200), (SCREEN_WIDTH // 2 + 200, SCREEN_HEIGHT - 60))
             _draw_text(
                 screen,
-                "https://github.com/seu-usuario/TouchFreeGame",
+                "github.com/StorThiago/TouchFreeGame",
                 20,
-                (100, 100, 255),
+                (200, 200, 200),
                 (SCREEN_WIDTH // 2, SCREEN_HEIGHT - 30),
             )
             pygame.draw.rect(screen, (70, 70, 200), start_button)
             _draw_text(screen, "Iniciar", 32, (255, 255, 255), start_button.center)
         else:
-            screen.fill((50, 50, 80))
+            screen.fill((255, 255, 255))
             spawn_timer += 1
             if spawn_timer > 60:
                 bubbles.append(Bubble())
