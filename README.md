@@ -35,17 +35,21 @@ Oferecer uma ferramenta lúdica, inclusiva e acessível que:
    cd TouchFreeGame
 
 2.Crie e ative um ambiente virtual (opcional mas recomendado):
+
    ```bash
   python -m venv venv
   source venv/bin/activate  # ou venv\Scripts\activate no Windows
+   ```
 
 3. Instale as dependências:
    ```bash
   pip install -r requirements.txt
+   ```
 
 4. Como Rodar
    ```bash
   python main.py
+```
 
 ## 📚 Estrutura Inicial
 
@@ -64,7 +68,7 @@ TouchFreeGame/
 └── README.md
 
 
-♿ Inclusão e Acessibilidade
+## ♿ Inclusão e Acessibilidade
 - Este projeto foi pensado especialmente para educação inclusiva. Ele pode ser utilizado por:
 - Alunos com paralisia cerebral
 - Autistas com dificuldades motoras
