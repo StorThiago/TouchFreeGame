@@ -33,26 +33,36 @@ Oferecer uma ferramenta lúdica, inclusiva e acessível que:
    ```bash
    git clone https://github.com/seu-usuario/TouchFreeGame.git
    cd TouchFreeGame
+   ```
 
-2.Crie e ative um ambiente virtual (opcional mas recomendado):
+2. Crie e ative um ambiente virtual (opcional mas recomendado):
 
    ```bash
-  python -m venv venv
-  source venv/bin/activate  # ou venv\Scripts\activate no Windows
+   python -m venv venv
+   source venv/bin/activate  # ou venv\Scripts\activate no Windows
    ```
 
 3. Instale as dependências:
+
    ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
-4. Como Rodar
-   ```bash
-  python main.py
+---
+
+## ▶️ Como Rodar
+
+```bash
+python main.py
 ```
+
+Certifique-se de que sua webcam está conectada e funcionando.
+
+---
 
 ## 📚 Estrutura Inicial
 
+```
 TouchFreeGame/
 ├── main.py
 ├── camera/
@@ -66,16 +76,24 @@ TouchFreeGame/
 │   └── helpers.py
 ├── requirements.txt
 └── README.md
+```
 
+---
 
 ## ♿ Inclusão e Acessibilidade
-- Este projeto foi pensado especialmente para educação inclusiva. Ele pode ser utilizado por:
-- Alunos com paralisia cerebral
-- Autistas com dificuldades motoras
-- Crianças em reabilitação física
-- Qualquer aluno que se beneficie de interações sem toque
 
+Este projeto foi pensado especialmente para **educação inclusiva**. Ele pode ser utilizado por:
 
-## Contribuições são bem-vindas! 👾🍇📚
-Se quiser, posso também gerar um `requirements.txt` inicial e esqueleto dos diretórios (`main.py`, etc.) para você começar rapidinho. Deseja isso?
+- Alunos com paralisia cerebral  
+- Autistas com dificuldades motoras  
+- Crianças em reabilitação física  
+- Qualquer aluno que se beneficie de interações sem toque  
 
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! 👾🍇📚  
+Sinta-se à vontade para abrir *issues*, enviar *pull requests* ou sugerir melhorias.
+
+---
