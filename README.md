@@ -11,7 +11,7 @@ O jogador usa **bolas coloridas físicas** para apontar na tela (através da web
 Oferecer uma ferramenta lúdica, inclusiva e acessível que:
 
 - Estimule o aprendizado e a coordenação motora;
-- Dê autonomia a alunos com mobilidade reduzida;
+- Facilite o acesso e treino a alunos com mobilidade reduzida;
 - Use tecnologia acessível (webcam comum e objetos físicos coloridos).
 
 ---
@@ -85,9 +85,9 @@ TouchFreeGame/
 Este projeto foi pensado especialmente para **educação inclusiva**. Ele pode ser utilizado por:
 
 - Alunos com paralisia cerebral  
-- Autistas com dificuldades motoras  
+- Outras crianças com dificuldades motoras  
 - Crianças em reabilitação física  
-- Qualquer aluno que se beneficie de interações sem toque  
+- Qualquer aluno que beneficie de interações sem toque  
 
 ---
 
